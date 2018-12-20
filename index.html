@@ -19,7 +19,7 @@ window.onload = function () {
   form.onsubmit = function () {
     channel.postMessage(myMessage.value);
 
-    window.postMessage("MATALAN", window.location.origin);
+    window.postMessage("MATALAN", "*");
 
     return false;
   };
