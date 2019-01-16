@@ -2,7 +2,7 @@
   {
     "title": "About Matalan",
     "url": "/product/detail/product_sku/product-123",
-    "thumbnail_image_url": "https://example.com/small-image.jpg",
+    "thumbnail_image_url": "https://mureatencio.github.io/icons/iconsInfo.png",
     "banner_image_url": "https://example.com/large-image.jpg",
     "banner_link_url": "/path/to/some/page",
     "highlight": false,
@@ -72,7 +72,7 @@
   {
     "title": "Help",
     "url": "/events/holiday-shop/kids-holiday-shop",
-    "thumbnail_image_url": "https://example.com/small-image.jpg",
+    "thumbnail_image_url": "https://mureatencio.github.io/icons/iconsHelp.png",
     "banner_image_url": "https://example.com/large-image.jpg",
     "banner_link_url": "/path/to/some/page",
     "highlight": false,
@@ -143,7 +143,7 @@
   {
     "title": "Privacy",
     "url": "/events/holiday-shop/kids-holiday-shop",
-    "thumbnail_image_url": "https://example.com/small-image.jpg",
+    "thumbnail_image_url": "https://mureatencio.github.io/icons/iconsPadlockLocked.png", 
     "banner_image_url": "https://example.com/large-image.jpg",
     "banner_link_url": "/path/to/some/page",
     "highlight": false,
