@@ -65,6 +65,26 @@
         "banner_link_url": null,
         "highlight": false,
         "menu_items": [
+          {
+            "title": "Charity Publications",
+            "url": "https://www.matalan.co.uk/charity",
+            "thumbnail_image_url": "https://...",
+            "banner_image_url": null,
+            "banner_link_url": null,
+            "highlight": false,
+            "menu_items": [
+            ]
+          },
+          {
+            "title": "Charity Organizations",
+            "url": "https://www.matalan.co.uk/charity",
+            "thumbnail_image_url": "https://...",
+            "banner_image_url": null,
+            "banner_link_url": null,
+            "highlight": false,
+            "menu_items": [
+            ]
+          }
         ]
       }
     ]
