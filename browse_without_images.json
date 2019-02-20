@@ -1,7 +1,7 @@
 [{
-    "title": "Now Or Never Deals - 20% off ",
+    "title": "Now Or Never Deals - 20% off",
     "url": "/comms-287",
-    "thumbnail_image_url": "https://mureatencio.github.io/icons/iconsSettings.png",
+    "thumbnail_image_url": null,
     "banner_image_url": null,
     "banner_link_url": null,
     "highlight": false,
@@ -233,7 +233,7 @@
 }, {
     "title": "Womens",
     "url": "/womens",
-    "thumbnail_image_url": "https://mureatencio.github.io/icons/iconsHelp.png",
+    "thumbnail_image_url": null,
     "banner_image_url": null,
     "banner_link_url": null,
     "highlight": false,
@@ -721,7 +721,7 @@
 }, {
     "title": "Souluxe",
     "url": "/brands/souluxe",
-    "thumbnail_image_url": "/icons/iconsInfo.png",
+    "thumbnail_image_url": null,
     "banner_image_url": null,
     "banner_link_url": null,
     "highlight": false,
