@@ -17,7 +17,6 @@ window.onload = function () {
 
   form.onsubmit = function () {
     channel.postMessage(myMessage.value);
-
     window.postMessage("MATALAN", "*");
 
     return false;
