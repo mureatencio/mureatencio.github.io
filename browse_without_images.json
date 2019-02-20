@@ -721,7 +721,7 @@
 }, {
     "title": "Souluxe",
     "url": "/brands/souluxe",
-    "thumbnail_image_url": null,
+    "thumbnail_image_url": "/icons/iconsInfo.png",
     "banner_image_url": null,
     "banner_link_url": null,
     "highlight": false,
