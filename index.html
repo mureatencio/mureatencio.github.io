@@ -1,6 +1,6 @@
 <html>
   <head>
-    <title> POSTMESSAGE TEST </title>
+    <title> POSTMESSAGE TEST #1 </title>
   </head>
   <body>
     <form id="the-form" action="/">
@@ -17,7 +17,7 @@ window.onload = function () {
 
   form.onsubmit = function () {
     channel.postMessage(myMessage.value);
-    window.postMessage("MATALAN", "*");
+    window.postMessage("MATALAN_", "*");
 
     return false;
   };
