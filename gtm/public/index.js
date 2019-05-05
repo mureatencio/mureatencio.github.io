@@ -15,6 +15,59 @@
  */
 
 // [START log_event]
+
+dataLayer = [];
+
+func logGTM() {
+  dataLayer.push({
+    reward_card: "",
+    event: "productView",
+    pageCategory: "",
+    ecommerce: {
+        detail: {
+            products: [{
+                "brand": "Souluxe",
+                "category": "S01",
+                "colour_code": "C128",
+                "full_product_code": "N/A",
+                "id": "S2668289_C128",
+                "launch_status": "",
+                "name": "Souluxe Asymmetric Zip Sports Hoodie",
+                "offers": "N/A",
+                "price": "18.0",
+                "product_availability_percent": "100",
+                "product_availability": "in_stock",
+                "product_high_price": "0",
+                "product_rating": "5",
+                "season": "W17",
+                "section": "S010305",
+                "size_code": "N/A",
+                "style_code": "S2668289",
+                "sub_category": "S0103",
+                "trends": "Navy",
+                "variant": "N/A",
+                "view_type": "PDP",
+                "dimension84": "C128",
+                "dimension85": "N/A",
+                "dimension86": "",
+                "dimension87": "N/A",
+                "dimension88": "in_stock",
+                "dimension89": "0",
+                "dimension90": "5",
+                "dimension91": "W17",
+                "dimension92": "S010305",
+                "dimension93": "N/A",
+                "dimension94": "S2668289",
+                "dimension95": "S0103",
+                "dimension96": "Navy",
+                "dimension97": "PDP",
+                "list": "N/A"
+            }]
+        }
+    }
+  })
+}
+
 function logEvent(name, params) {
   if (!name) {
     return;
@@ -67,13 +120,18 @@ function setUserProperty(name, value) {
 // [END set_user_property]
 
 document.getElementById("event1").addEventListener("click", function() {
-    console.log("event1");
-    logEvent("event1", { foo: "bar", baz: 123 });
+  console.log("event1");
+  logEvent("event1", { foo: "bar", baz: 123 });
 });
 
 document.getElementById("event2").addEventListener("click", function() {
   console.log("event2");
-    logEvent("event2", { size: 123.456 });
+  logEvent("event2", { size: 123.456 });
+});
+
+document.getElementById("event3").addEventListener("click", function() {
+  console.log("event2");
+  logGTM()
 });
 
 document.getElementById("userprop").addEventListener("click", function() {
