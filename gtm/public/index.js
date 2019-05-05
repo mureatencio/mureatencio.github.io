@@ -18,7 +18,7 @@
 
 dataLayer = [];
 
-func logGTM() {
+function logGTM() {
   dataLayer.push({
     reward_card: "",
     event: "productView",
