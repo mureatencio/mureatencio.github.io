@@ -16,7 +16,7 @@
 
 // [START log_event]
 
-dataLayer = [];
+dataLayer = window.dataLayer || [];  
 
 function logGTM() {
   dataLayer.push({
