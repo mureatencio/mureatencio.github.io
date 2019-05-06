@@ -130,8 +130,8 @@ document.getElementById("event2").addEventListener("click", function() {
 });
 
 document.getElementById("event3").addEventListener("click", function() {
-  console.log("event2");
-  logGTM()
+  logGTM();
+  console.log("event3");
 });
 
 document.getElementById("userprop").addEventListener("click", function() {
