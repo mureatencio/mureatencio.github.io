@@ -1,0 +1,35 @@
+{
+    "activitycontinuation": {
+        "apps": [
+            "VLFFCUM7A9.com.mobilize.matalan.rewardcard"
+        ]
+    },
+    "webcredentials": {
+        "apps": [
+            "VLFFCUM7A9.com.mobilize.matalan.rewardcard"
+        ]
+    },
+    "applinks": {
+        "apps": [],
+        "details": [
+            {
+                "appID": "VLFFCUM7A9.com.mobilize.matalan.rewardcard",
+                "paths": [
+                    "/",
+                    "/r/*",
+                    "/u/*",
+                    "/user/*",
+                    "/comments/*",
+                    "/live/*",
+                    "/message/*",
+                    "/chat/*",
+                    "/channel/*",
+                    "/prefs/update",
+                    "/coins",
+                    "/premium",
+                    "/verification/*"
+                ]
+            }
+        ]
+    }
+}
