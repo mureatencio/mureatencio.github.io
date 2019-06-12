@@ -1,0 +1,9 @@
+[{
+  "relation": ["delegate_permission/common.handle_all_urls"],
+  "target": {
+    "namespace": "android_app",
+    "package_name": "com.mobilize.matalan.rewardcard",
+    "sha256_cert_fingerprints":
+    ["F5:04:13:69:3D:5E:57:A3:1C:7F:89:1D:37:64:B8:7C:2E:C0:55:59:31:8B:89:CC:13:12:78:25:F3:46:70:1C"]
+  }
+}]
