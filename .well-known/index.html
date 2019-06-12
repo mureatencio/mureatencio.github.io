@@ -1,0 +1,176 @@
+<html>
+   <head>
+      <script>
+         /* required by GTM */
+         var dataLayer = [];
+      </script>
+      <script>
+         dataLayer.push({
+             reward_card: "",
+             event: "productView",
+             pageCategory: "",
+             ecommerce: {
+                 detail: {
+                     products: [{
+                         "brand": "Souluxe",
+                         "category": "S01",
+                         "colour_code": "C128",
+                         "full_product_code": "N/A",
+                         "id": "S2668289_C128",
+                         "launch_status": "",
+                         "name": "Souluxe Asymmetric Zip Sports Hoodie",
+                         "offers": "N/A",
+                         "price": "18.0",
+                         "product_availability_percent": "100",
+                         "product_availability": "in_stock",
+                         "product_high_price": "0",
+                         "product_rating": "5",
+                         "season": "W17",
+                         "section": "S010305",
+                         "size_code": "N/A",
+                         "style_code": "S2668289",
+                         "sub_category": "S0103",
+                         "trends": "Navy",
+                         "variant": "N/A",
+                         "view_type": "PDP",
+                         "dimension84": "C128",
+                         "dimension85": "N/A",
+                         "dimension86": "",
+                         "dimension87": "N/A",
+                         "dimension88": "in_stock",
+                         "dimension89": "0",
+                         "dimension90": "5",
+                         "dimension91": "W17",
+                         "dimension92": "S010305",
+                         "dimension93": "N/A",
+                         "dimension94": "S2668289",
+                         "dimension95": "S0103",
+                         "dimension96": "Navy",
+                         "dimension97": "PDP",
+                         "list": "N/A"
+                     }]
+                 }
+             }
+         })()
+      </script>
+      <!-- Google Tag Manager -->
+      <script>
+         (function(w, d, s, l, i) {
+             w[l] = w[l] || [];
+             w[l].push({
+                 'gtm.start': new Date().getTime(),
+                 event: 'gtm.js'
+             });
+             var f = d.getElementsByTagName(s)[0],
+                 j = d.createElement(s),
+                 dl = l != 'dataLayer' ? '&l=' + l : '';
+             j.async = true;
+             j.src =
+                 'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+             f.parentNode.insertBefore(j, f);
+         })(window, document, 'script', 'dataLayer', 'GTM-MLJ4VTS');
+      </script>
+      <!-- End Google Tag Manager -->
+      <script>
+         function logEvent(name, params) {
+         if (!name) {
+         return;
+         }
+         
+         if (window.AnalyticsWebInterface) {
+         // Call Android interface
+         window.AnalyticsWebInterface.logEvent(name, JSON.stringify(params));
+         } else if (window.webkit
+           && window.webkit.messageHandlers
+           && window.webkit.messageHandlers.firebase) {
+         // Call iOS interface
+         var message = {
+           command: 'logEvent',
+           name: name,
+           parameters: params
+         };
+         window.webkit.messageHandlers.firebase.postMessage(message);
+         } else {
+         // No Android or iOS interface found
+         console.log("No native APIs found.");
+         }
+         }
+         
+         function setUserProperty(name, value) {
+         if (!name || !value) {
+         return;
+         }
+         
+         if (window.AnalyticsWebInterface) {
+         // Call Android interface
+         window.AnalyticsWebInterface.setUserProperty(name, value);
+         } else if (window.webkit
+           && window.webkit.messageHandlers
+           && window.webkit.messageHandlers.firebase) {
+         // Call iOS interface
+         var message = {
+           command: 'setUserProperty',
+           name: name,
+           value: value
+         };
+         window.webkit.messageHandlers.firebase.postMessage(message);
+         } else {
+         // No Android or iOS interface found
+         console.log("No native APIs found.");
+         }
+         }
+      </script>
+      <title>
+         GTM Report example
+      </title>
+   </head>
+   <body>
+      <!-- Google Tag Manager (noscript) -->
+      <noscript>
+         <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MLJ4VTS" height="0" width="0" style="display:none;visibility:hidden"></iframe>
+      </noscript>
+      <!-- End Google Tag Manager (noscript) -->
+      <p>Jabberwocky</p>
+      <p>Lewis Carroll, 1832 - 1898</p>
+      <div class="field field-name-body field-type-text-with-summary field-label-hidden">
+         <div class="field-items">
+            <div class="field-item even">
+               <pre>‘Twas brillig, and the slithy toves 
+      &nbsp;&nbsp;&nbsp;Did gyre and gimble in the wabe;
+      All mimsy were the borogoves,
+      &nbsp;&nbsp;&nbsp;And the mome raths outgrabe.
+
+      “Beware the Jabberwock, my son 
+      &nbsp;&nbsp;&nbsp;The jaws that bite, the claws that catch!
+      Beware the Jubjub bird, and shun 
+      &nbsp;&nbsp;&nbsp;The frumious Bandersnatch!”
+
+      He took his vorpal sword in hand; 
+      &nbsp;&nbsp;&nbsp;Long time the manxome foe he sought—
+      So rested he by the Tumtum tree, 
+      &nbsp;&nbsp;&nbsp;And stood awhile in thought.
+
+      And, as in uffish thought he stood, 
+      &nbsp;&nbsp;&nbsp;The Jabberwock, with eyes of flame,
+      Came whiffling through the tulgey wood, 
+      &nbsp;&nbsp;&nbsp;And burbled as it came!
+
+      One, two! One, two! And through and through 
+      &nbsp;&nbsp;&nbsp;The vorpal blade went snicker-snack!
+      He left it dead, and with its head 
+      &nbsp;&nbsp;&nbsp;He went galumphing back.
+
+      “And hast thou slain the Jabberwock? 
+      &nbsp;&nbsp;&nbsp;Come to my arms, my beamish boy!
+      O frabjous day! Callooh! Callay!” 
+      &nbsp;&nbsp;&nbsp;He chortled in his joy.
+
+      ‘Twas brillig, and the slithy toves 
+      &nbsp;&nbsp;&nbsp;Did gyre and gimble in the wabe;
+      All mimsy were the borogoves,
+      &nbsp;&nbsp;&nbsp;And the mome raths outgrabe.</pre>
+            </div>
+         </div>
+      </div>
+   </body>
+</html>
