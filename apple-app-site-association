@@ -1,19 +1,19 @@
 {
     "activitycontinuation": {
         "apps": [
-            "ZQAMMS7TB6.com.mobilize.matalan.rewardcard"
+            "VLFFCUM7A9.com.mobilize.matalan.rewardcard"
         ]
     },
     "webcredentials": {
         "apps": [
-            "ZQAMMS7TB6.com.mobilize.matalan.rewardcard"
+            "VLFFCUM7A9.com.mobilize.matalan.rewardcard"
         ]
     },
     "applinks": {
         "apps": [],
         "details": [
             {
-                "appID": "ZQAMMS7TB6.com.mobilize.matalan.rewardcard",
+                "appID": "VLFFCUM7A9.com.mobilize.matalan.rewardcard",
                 "paths": [
                     "*"
                 ]
