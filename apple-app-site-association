@@ -15,8 +15,7 @@
             {
                 "appID": "ZQAMMS7TB6.com.mobilize.matalan.rewardcard",
                 "paths": [
-                    "/",
-                    "/*"
+                    "*"
                 ]
             }
         ]
