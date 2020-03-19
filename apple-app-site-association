@@ -1,1 +1,25 @@
-{ "activitycontinuation": { "apps": [ "VLFFCUM7A9.com.mobilize.matalan.rewardcard" ] }, "webcredentials": { "apps": [ "VLFFCUM7A9.com.mobilize.matalan.rewardcard" ] }, "applinks": { "apps": [], "details": [ { "appID": "VLFFCUM7A9.com.mobilize.matalan.rewardcard", "paths": [ "/", "/*" ] } ] } }
+{ 
+    "activitycontinuation": { 
+        "apps": [ "VLFFCUM7A9.com.mobilize.matalan.rewardcard" ] 
+    }, 
+    "webcredentials": { 
+        "apps": [ "VLFFCUM7A9.com.mobilize.matalan.rewardcard" ] 
+    }, 
+    "applinks": { 
+        "apps": [], 
+        "details": [ 
+            { 
+                "appID": "VLFFCUM7A9.com.mobilize.matalan.rewardcard", 
+                "paths": [ "/", "/*" ] 
+            },
+            { 
+                "appID": "ZQAMMS7TB6.com.mobilize.matalan.rewardcard", 
+                "paths": [ "/dev/", "/dev/*" ] 
+            },
+            { 
+                "appID": "VLFFCUM7A9.com.mobilize.matalan.rewardcard", 
+                "paths": [ "/prod/", "/prod/*" ] 
+            }
+        ] 
+    } 
+}
